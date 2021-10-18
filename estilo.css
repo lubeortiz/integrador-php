@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#color-link{
+    color:green;
+}
+
+#navbarNav{
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+
+#m-logo{
+    margin-left: 60px;
+}
+
+.padre-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+#carous{
+    filter:brightness(0.35);
+}
+
+.caja-texto{
+    width:520px;
+    text-align:right;
+    color:white;
+    position:absolute;
+    top:325px;
+    left: 55%;
+}
+#titulo-section{
+    text-align: center;
+    padding:0.5em;
+}
+
+section > div#titulo-section > h6{
+    font-size:90%;
+}
+
+#margenes-contenedor-cards{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.contenedor-badges{
+    margin-left:15px;
+    margin-top:20px;
+}
+
+.card-body{
+    padding-top:5px;
+}
+
+.card{
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.card-text{
+     font-size:80%;
+}
+
+.caja-texto2{
+    background-color: rgb(52, 58, 64);
+    color:white;
+    font-size:80%;
+    line-height: 200%;
+    padding-top: 15px;
+}
+
+.dottedtexto{
+    text-decoration-line:none;
+    border-bottom:1px dotted black;
+}
+
+.contenedor-form{
+    width:600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.send-button{
+    width: 600px;
+    background-color: green;
+}
+
+
+footer{
+    background-image: linear-gradient(to right,RGB(29,55,69) ,RGB(30,83,114));
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top:10px;
+}
+
+footer > div.row >div.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > div.row > div.col > a{
+    color:white;
+    text-decoration-line: none;
+    font-size:80%;
+    text-align:center;
+}
+
+footer > div.row{
+    justify-content: center;
+}
